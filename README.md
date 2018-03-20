@@ -1,1 +1,1 @@
-# redux-gps-camera
+# react-redux-gps-camera
