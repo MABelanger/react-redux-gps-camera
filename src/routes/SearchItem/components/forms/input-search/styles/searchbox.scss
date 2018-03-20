@@ -1,0 +1,60 @@
+// ../../../../../../../node_modules/font-awesome/css/font-awesome.min.css
+
+$fa-font-path: "../../../../../../../node_modules/font-awesome/fonts";
+@import "../../../../../../../node_modules/font-awesome/scss/font-awesome.scss";
+/*
+https://codepen.io/asawilliams/pen/jFieq
+*/
+
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-4 input#search{
+  width: 300px;
+  height: 50px;
+
+  border: 1px solid black;
+  font-size: 10pt;
+  float: left;
+
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-4 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+
+.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.container-4 input#search:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.container-4 button.icon{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+  font-size: 14pt;
+  background-color: white;
+  border: 1px solid black;
+}
